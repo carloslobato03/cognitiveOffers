@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8403EAFE1F0CB28100A3A4B8 /* MessagesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403EAFD1F0CB28100A3A4B8 /* MessagesTableView.swift */; };
+		8403EB001F0CB45E00A3A4B8 /* UserMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403EAFF1F0CB45E00A3A4B8 /* UserMessageCell.swift */; };
+		8403EB021F0CB46900A3A4B8 /* WatsonMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403EB011F0CB46900A3A4B8 /* WatsonMessageCell.swift */; };
+		8403EB071F0D685F00A3A4B8 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403EB061F0D685F00A3A4B8 /* Layout.swift */; };
+		840BFD5F1F278CFF005DA5C9 /* Loja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840BFD5E1F278CFF005DA5C9 /* Loja.swift */; };
+		847D4E2F1F0C6E3000D2C411 /* LiveUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D4E2E1F0C6E3000D2C411 /* LiveUpdate.swift */; };
+		84A0481C1F293856000F20E8 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0481B1F293856000F20E8 /* Usuario.swift */; };
+		84CCC3F51F052CB4006CB18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CCC3F41F052CB4006CB18F /* LaunchScreen.storyboard */; };
+		84F309631F0A0D420025040D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F309621F0A0D420025040D /* UIColorExtension.swift */; };
+		84F309671F0B16870025040D /* mfpclient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F309661F0B16860025040D /* mfpclient.plist */; };
+		84F88C171F16D9B500315780 /* VisualRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F88C161F16D9B500315780 /* VisualRecognition.swift */; };
+		84F88C191F16DE2600315780 /* LanguageTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F88C181F16DE2600315780 /* LanguageTranslator.swift */; };
+		84FFFBB61F2C0AA200000BD2 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFFBB51F2C0AA200000BD2 /* Produto.swift */; };
+		84FFFBB81F2D474300000BD2 /* ProdutoMapaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FFFBB71F2D474300000BD2 /* ProdutoMapaView.xib */; };
+		84FFFBBA1F2D4E9A00000BD2 /* ProdutoMapaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFFBB91F2D4E9A00000BD2 /* ProdutoMapaView.swift */; };
+		853AE3DD50F5B7516355FE7D /* Pods_Ofertao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4CC7D14F10DF107804A78C /* Pods_Ofertao.framework */; };
+		DB5411291EBCB72D004FA6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5411281EBCB72D004FA6FF /* Assets.xcassets */; };
+		DB5411991EBCB7D8004FA6FF /* Watson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB54118F1EBCB7D8004FA6FF /* Watson.swift */; };
+		DB54119A1EBCB7D8004FA6FF /* NativeSpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411901EBCB7D8004FA6FF /* NativeSpeechRecognizer.swift */; };
+		DB54119B1EBCB7D8004FA6FF /* WatsonSpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411911EBCB7D8004FA6FF /* WatsonSpeechRecognizer.swift */; };
+		DB54119C1EBCB7D8004FA6FF /* LanguageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411921EBCB7D8004FA6FF /* LanguageClassifier.swift */; };
+		DB54119D1EBCB7D8004FA6FF /* WatsonVoiceSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411931EBCB7D8004FA6FF /* WatsonVoiceSynthesizer.swift */; };
+		DB54119E1EBCB7D8004FA6FF /* AudioSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411941EBCB7D8004FA6FF /* AudioSpeaker.swift */; };
+		DB54119F1EBCB7D8004FA6FF /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411951EBCB7D8004FA6FF /* Settings.swift */; };
+		DB5411A01EBCB7D8004FA6FF /* AlamoWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411961EBCB7D8004FA6FF /* AlamoWrapper.swift */; };
+		DB5411A11EBCB7D8004FA6FF /* WatsonSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411971EBCB7D8004FA6FF /* WatsonSettings.swift */; };
+		DB5411A21EBCB7D8004FA6FF /* NativeVoiceSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411981EBCB7D8004FA6FF /* NativeVoiceSynthesizer.swift */; };
+		DB5411A61EBCB81A004FA6FF /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411A41EBCB81A004FA6FF /* SpeechRecognizer.swift */; };
+		DB5411A71EBCB81A004FA6FF /* VoiceSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411A51EBCB81A004FA6FF /* VoiceSynthesizer.swift */; };
+		DB5411AA1EBCB862004FA6FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411A91EBCB862004FA6FF /* AppDelegate.swift */; };
+		DB5411B41EBCB871004FA6FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411AB1EBCB871004FA6FF /* MainViewController.swift */; };
+		DB5411B51EBCB871004FA6FF /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411AC1EBCB871004FA6FF /* LanguageViewController.swift */; };
+		DB5411B61EBCB871004FA6FF /* ResponsiveTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411AD1EBCB871004FA6FF /* ResponsiveTextFieldViewController.swift */; };
+		DB5411B71EBCB871004FA6FF /* OrchestratorSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411AE1EBCB871004FA6FF /* OrchestratorSettingsViewController.swift */; };
+		DB5411B81EBCB871004FA6FF /* VoiceSynthesisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411AF1EBCB871004FA6FF /* VoiceSynthesisViewController.swift */; };
+		DB5411B91EBCB871004FA6FF /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411B01EBCB871004FA6FF /* SettingsTableViewController.swift */; };
+		DB5411BA1EBCB871004FA6FF /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411B11EBCB871004FA6FF /* VoiceViewController.swift */; };
+		DB5411BB1EBCB871004FA6FF /* SpeechRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411B21EBCB871004FA6FF /* SpeechRecognitionViewController.swift */; };
+		DB5411BC1EBCB871004FA6FF /* VersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411B31EBCB871004FA6FF /* VersionViewController.swift */; };
+		DB5411C81EBCB8B0004FA6FF /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411C71EBCB8B0004FA6FF /* UIHelper.swift */; };
+		DB5411CC1EBCB8DA004FA6FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5411CA1EBCB8DA004FA6FF /* Main.storyboard */; };
+		DB5411E21EBCB97E004FA6FF /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5411E11EBCB97E004FA6FF /* UIImage+Gif.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27E325C2A33FAB27C6470FD6 /* Pods-Ofertao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofertao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ofertao/Pods-Ofertao.debug.xcconfig"; sourceTree = "<group>"; };
+		65F2E4EC1E9CCE938AD639B0 /* Pods_Conversation_MF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Conversation_MF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4CC7D14F10DF107804A78C /* Pods_Ofertao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ofertao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403EAFD1F0CB28100A3A4B8 /* MessagesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableView.swift; sourceTree = "<group>"; };
+		8403EAFF1F0CB45E00A3A4B8 /* UserMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessageCell.swift; sourceTree = "<group>"; };
+		8403EB011F0CB46900A3A4B8 /* WatsonMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonMessageCell.swift; sourceTree = "<group>"; };
+		8403EB061F0D685F00A3A4B8 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		840BFD5E1F278CFF005DA5C9 /* Loja.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loja.swift; sourceTree = "<group>"; };
+		847D4E2C1F0C377200D2C411 /* IBMMobileFirstPlatformFoundationLiveUpdate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFirstPlatformFoundationLiveUpdate.framework; path = "build/Debug-iphoneos/IBMMobileFirstPlatformFoundationLiveUpdate/IBMMobileFirstPlatformFoundationLiveUpdate.framework"; sourceTree = "<group>"; };
+		847D4E2E1F0C6E3000D2C411 /* LiveUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveUpdate.swift; sourceTree = "<group>"; };
+		84A0481B1F293856000F20E8 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		84CCC3F41F052CB4006CB18F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F309621F0A0D420025040D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		84F309661F0B16860025040D /* mfpclient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mfpclient.plist; sourceTree = SOURCE_ROOT; };
+		84F88C161F16D9B500315780 /* VisualRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualRecognition.swift; sourceTree = "<group>"; };
+		84F88C181F16DE2600315780 /* LanguageTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageTranslator.swift; sourceTree = "<group>"; };
+		84FFFBB51F2C0AA200000BD2 /* Produto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
+		84FFFBB71F2D474300000BD2 /* ProdutoMapaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProdutoMapaView.xib; sourceTree = "<group>"; };
+		84FFFBB91F2D4E9A00000BD2 /* ProdutoMapaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdutoMapaView.swift; sourceTree = "<group>"; };
+		DB120F561EBCE06500AA2FF4 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		DB120F571EBCE06500AA2FF4 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reachability.framework; sourceTree = "<group>"; };
+		DB120F581EBCE06500AA2FF4 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
+		DB120F661EBCE14900AA2FF4 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechToTextV1.framework; sourceTree = "<group>"; };
+		DB120F681EBCE15600AA2FF4 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
+		DB54111E1EBCB72D004FA6FF /* Ofertao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ofertao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5411281EBCB72D004FA6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB54112D1EBCB72D004FA6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB54118F1EBCB7D8004FA6FF /* Watson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watson.swift; sourceTree = "<group>"; };
+		DB5411901EBCB7D8004FA6FF /* NativeSpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeSpeechRecognizer.swift; sourceTree = "<group>"; };
+		DB5411911EBCB7D8004FA6FF /* WatsonSpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonSpeechRecognizer.swift; sourceTree = "<group>"; };
+		DB5411921EBCB7D8004FA6FF /* LanguageClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageClassifier.swift; sourceTree = "<group>"; };
+		DB5411931EBCB7D8004FA6FF /* WatsonVoiceSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonVoiceSynthesizer.swift; sourceTree = "<group>"; };
+		DB5411941EBCB7D8004FA6FF /* AudioSpeaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioSpeaker.swift; sourceTree = "<group>"; };
+		DB5411951EBCB7D8004FA6FF /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DB5411961EBCB7D8004FA6FF /* AlamoWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoWrapper.swift; sourceTree = "<group>"; };
+		DB5411971EBCB7D8004FA6FF /* WatsonSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonSettings.swift; sourceTree = "<group>"; };
+		DB5411981EBCB7D8004FA6FF /* NativeVoiceSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeVoiceSynthesizer.swift; sourceTree = "<group>"; };
+		DB5411A41EBCB81A004FA6FF /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		DB5411A51EBCB81A004FA6FF /* VoiceSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceSynthesizer.swift; sourceTree = "<group>"; };
+		DB5411A91EBCB862004FA6FF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB5411AB1EBCB871004FA6FF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DB5411AC1EBCB871004FA6FF /* LanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		DB5411AD1EBCB871004FA6FF /* ResponsiveTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponsiveTextFieldViewController.swift; sourceTree = "<group>"; };
+		DB5411AE1EBCB871004FA6FF /* OrchestratorSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrchestratorSettingsViewController.swift; sourceTree = "<group>"; };
+		DB5411AF1EBCB871004FA6FF /* VoiceSynthesisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceSynthesisViewController.swift; sourceTree = "<group>"; };
+		DB5411B01EBCB871004FA6FF /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		DB5411B11EBCB871004FA6FF /* VoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
+		DB5411B21EBCB871004FA6FF /* SpeechRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionViewController.swift; sourceTree = "<group>"; };
+		DB5411B31EBCB871004FA6FF /* VersionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionViewController.swift; sourceTree = "<group>"; };
+		DB5411C71EBCB8B0004FA6FF /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		DB5411CA1EBCB8DA004FA6FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB5411E11EBCB97E004FA6FF /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		E0F8D150994A538EC73F00D7 /* Pods-Conversation MF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conversation MF.release.xcconfig"; path = "Pods/Target Support Files/Pods-Conversation MF/Pods-Conversation MF.release.xcconfig"; sourceTree = "<group>"; };
+		E4B70DF94D6CCC2F057C4C96 /* Pods-Ofertao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofertao.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ofertao/Pods-Ofertao.release.xcconfig"; sourceTree = "<group>"; };
+		FBDE89671318775367E1DF62 /* Pods-Conversation MF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conversation MF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Conversation MF/Pods-Conversation MF.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB54111B1EBCB72D004FA6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853AE3DD50F5B7516355FE7D /* Pods_Ofertao.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03A66F8B74011010E8C9D91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847D4E2C1F0C377200D2C411 /* IBMMobileFirstPlatformFoundationLiveUpdate.framework */,
+				65F2E4EC1E9CCE938AD639B0 /* Pods_Conversation_MF.framework */,
+				6F4CC7D14F10DF107804A78C /* Pods_Ofertao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB5411151EBCB72D004FA6FF = {
+			isa = PBXGroup;
+			children = (
+				DB5411201EBCB72D004FA6FF /* Explica */,
+				DB54111F1EBCB72D004FA6FF /* Products */,
+				F380D3EC7673A74AB3589A28 /* Pods */,
+				D03A66F8B74011010E8C9D91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB54111F1EBCB72D004FA6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB54111E1EBCB72D004FA6FF /* Ofertao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5411201EBCB72D004FA6FF /* Explica */ = {
+			isa = PBXGroup;
+			children = (
+				84F309661F0B16860025040D /* mfpclient.plist */,
+				DB5411A81EBCB832004FA6FF /* Protocols */,
+				DB5411A31EBCB7E5004FA6FF /* Classes */,
+				DB5411BD1EBCB876004FA6FF /* Controllers */,
+				DB5411C91EBCB8B5004FA6FF /* Helpers */,
+				DB5411CE1EBCB8E0004FA6FF /* Views */,
+				DB5411D71EBCB922004FA6FF /* Frameworks */,
+				DB5411A91EBCB862004FA6FF /* AppDelegate.swift */,
+				DB5411281EBCB72D004FA6FF /* Assets.xcassets */,
+				DB54112D1EBCB72D004FA6FF /* Info.plist */,
+			);
+			name = Explica;
+			path = "iOS-Conversation";
+			sourceTree = "<group>";
+		};
+		DB5411A31EBCB7E5004FA6FF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DB54118F1EBCB7D8004FA6FF /* Watson.swift */,
+				DB5411901EBCB7D8004FA6FF /* NativeSpeechRecognizer.swift */,
+				DB5411911EBCB7D8004FA6FF /* WatsonSpeechRecognizer.swift */,
+				DB5411921EBCB7D8004FA6FF /* LanguageClassifier.swift */,
+				DB5411931EBCB7D8004FA6FF /* WatsonVoiceSynthesizer.swift */,
+				DB5411941EBCB7D8004FA6FF /* AudioSpeaker.swift */,
+				DB5411951EBCB7D8004FA6FF /* Settings.swift */,
+				DB5411961EBCB7D8004FA6FF /* AlamoWrapper.swift */,
+				DB5411971EBCB7D8004FA6FF /* WatsonSettings.swift */,
+				DB5411981EBCB7D8004FA6FF /* NativeVoiceSynthesizer.swift */,
+				847D4E2E1F0C6E3000D2C411 /* LiveUpdate.swift */,
+				8403EB061F0D685F00A3A4B8 /* Layout.swift */,
+				84F88C161F16D9B500315780 /* VisualRecognition.swift */,
+				84F88C181F16DE2600315780 /* LanguageTranslator.swift */,
+				840BFD5E1F278CFF005DA5C9 /* Loja.swift */,
+				84FFFBB51F2C0AA200000BD2 /* Produto.swift */,
+				84A0481B1F293856000F20E8 /* Usuario.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DB5411A81EBCB832004FA6FF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DB5411A41EBCB81A004FA6FF /* SpeechRecognizer.swift */,
+				DB5411A51EBCB81A004FA6FF /* VoiceSynthesizer.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		DB5411BD1EBCB876004FA6FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB5411AB1EBCB871004FA6FF /* MainViewController.swift */,
+				DB5411AC1EBCB871004FA6FF /* LanguageViewController.swift */,
+				DB5411AD1EBCB871004FA6FF /* ResponsiveTextFieldViewController.swift */,
+				DB5411AE1EBCB871004FA6FF /* OrchestratorSettingsViewController.swift */,
+				DB5411AF1EBCB871004FA6FF /* VoiceSynthesisViewController.swift */,
+				DB5411B01EBCB871004FA6FF /* SettingsTableViewController.swift */,
+				DB5411B11EBCB871004FA6FF /* VoiceViewController.swift */,
+				DB5411B21EBCB871004FA6FF /* SpeechRecognitionViewController.swift */,
+				DB5411B31EBCB871004FA6FF /* VersionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DB5411C91EBCB8B5004FA6FF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84F309621F0A0D420025040D /* UIColorExtension.swift */,
+				DB5411E11EBCB97E004FA6FF /* UIImage+Gif.swift */,
+				DB5411C71EBCB8B0004FA6FF /* UIHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		DB5411CE1EBCB8E0004FA6FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB5411CA1EBCB8DA004FA6FF /* Main.storyboard */,
+				84CCC3F41F052CB4006CB18F /* LaunchScreen.storyboard */,
+				8403EAFD1F0CB28100A3A4B8 /* MessagesTableView.swift */,
+				8403EAFF1F0CB45E00A3A4B8 /* UserMessageCell.swift */,
+				8403EB011F0CB46900A3A4B8 /* WatsonMessageCell.swift */,
+				84FFFBB71F2D474300000BD2 /* ProdutoMapaView.xib */,
+				84FFFBB91F2D4E9A00000BD2 /* ProdutoMapaView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DB5411D71EBCB922004FA6FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB120F681EBCE15600AA2FF4 /* RestKit.framework */,
+				DB120F661EBCE14900AA2FF4 /* SpeechToTextV1.framework */,
+				DB120F561EBCE06500AA2FF4 /* Alamofire.framework */,
+				DB120F571EBCE06500AA2FF4 /* Reachability.framework */,
+				DB120F581EBCE06500AA2FF4 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F380D3EC7673A74AB3589A28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE89671318775367E1DF62 /* Pods-Conversation MF.debug.xcconfig */,
+				E0F8D150994A538EC73F00D7 /* Pods-Conversation MF.release.xcconfig */,
+				27E325C2A33FAB27C6470FD6 /* Pods-Ofertao.debug.xcconfig */,
+				E4B70DF94D6CCC2F057C4C96 /* Pods-Ofertao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB54111D1EBCB72D004FA6FF /* Ofertao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5411301EBCB72D004FA6FF /* Build configuration list for PBXNativeTarget "Ofertao" */;
+			buildPhases = (
+				BFACE74D26C78846CD6833B8 /* [CP] Check Pods Manifest.lock */,
+				DB54111A1EBCB72D004FA6FF /* Sources */,
+				DB54111B1EBCB72D004FA6FF /* Frameworks */,
+				DB54111C1EBCB72D004FA6FF /* Resources */,
+				60A652B17254EDEC7872352D /* [CP] Embed Pods Frameworks */,
+				657AD91AA145290817D4EAEC /* [CP] Copy Pods Resources */,
+				8403EB051F0D4E1100A3A4B8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ofertao;
+			productName = "iOS-Conversation";
+			productReference = DB54111E1EBCB72D004FA6FF /* Ofertao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5411161EBCB72D004FA6FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Marco Aurélio Bigélli Cardoso";
+				TargetAttributes = {
+					DB54111D1EBCB72D004FA6FF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9P659N3RH4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB5411191EBCB72D004FA6FF /* Build configuration list for PBXProject "Ofertao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5411151EBCB72D004FA6FF;
+			productRefGroup = DB54111F1EBCB72D004FA6FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB54111D1EBCB72D004FA6FF /* Ofertao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB54111C1EBCB72D004FA6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FFFBB81F2D474300000BD2 /* ProdutoMapaView.xib in Resources */,
+				DB5411291EBCB72D004FA6FF /* Assets.xcassets in Resources */,
+				DB5411CC1EBCB8DA004FA6FF /* Main.storyboard in Resources */,
+				84CCC3F51F052CB4006CB18F /* LaunchScreen.storyboard in Resources */,
+				84F309671F0B16870025040D /* mfpclient.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60A652B17254EDEC7872352D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ofertao/Pods-Ofertao-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Frameworks/IBMMobileFirstPlatformFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMMobileFirstPlatformFoundationLiveUpdate/IBMMobileFirstPlatformFoundationLiveUpdate.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBMMobileFirstPlatformFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBMMobileFirstPlatformFoundationLiveUpdate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofertao/Pods-Ofertao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		657AD91AA145290817D4EAEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ofertao/Pods-Ofertao-resources.sh",
+				"${PODS_ROOT}/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Resources/Localizations.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Localizations.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofertao/Pods-Ofertao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8403EB051F0D4E1100A3A4B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		BFACE74D26C78846CD6833B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ofertao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB54111A1EBCB72D004FA6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5411A01EBCB7D8004FA6FF /* AlamoWrapper.swift in Sources */,
+				84F88C191F16DE2600315780 /* LanguageTranslator.swift in Sources */,
+				DB5411A71EBCB81A004FA6FF /* VoiceSynthesizer.swift in Sources */,
+				DB54119C1EBCB7D8004FA6FF /* LanguageClassifier.swift in Sources */,
+				84A0481C1F293856000F20E8 /* Usuario.swift in Sources */,
+				DB5411AA1EBCB862004FA6FF /* AppDelegate.swift in Sources */,
+				DB54119E1EBCB7D8004FA6FF /* AudioSpeaker.swift in Sources */,
+				DB5411A11EBCB7D8004FA6FF /* WatsonSettings.swift in Sources */,
+				DB5411E21EBCB97E004FA6FF /* UIImage+Gif.swift in Sources */,
+				8403EB021F0CB46900A3A4B8 /* WatsonMessageCell.swift in Sources */,
+				DB5411991EBCB7D8004FA6FF /* Watson.swift in Sources */,
+				DB5411B81EBCB871004FA6FF /* VoiceSynthesisViewController.swift in Sources */,
+				DB54119B1EBCB7D8004FA6FF /* WatsonSpeechRecognizer.swift in Sources */,
+				DB5411B41EBCB871004FA6FF /* MainViewController.swift in Sources */,
+				840BFD5F1F278CFF005DA5C9 /* Loja.swift in Sources */,
+				DB5411BC1EBCB871004FA6FF /* VersionViewController.swift in Sources */,
+				DB5411B51EBCB871004FA6FF /* LanguageViewController.swift in Sources */,
+				DB54119A1EBCB7D8004FA6FF /* NativeSpeechRecognizer.swift in Sources */,
+				DB5411A21EBCB7D8004FA6FF /* NativeVoiceSynthesizer.swift in Sources */,
+				DB5411BA1EBCB871004FA6FF /* VoiceViewController.swift in Sources */,
+				8403EB071F0D685F00A3A4B8 /* Layout.swift in Sources */,
+				847D4E2F1F0C6E3000D2C411 /* LiveUpdate.swift in Sources */,
+				DB5411B61EBCB871004FA6FF /* ResponsiveTextFieldViewController.swift in Sources */,
+				84F309631F0A0D420025040D /* UIColorExtension.swift in Sources */,
+				DB54119F1EBCB7D8004FA6FF /* Settings.swift in Sources */,
+				DB5411B91EBCB871004FA6FF /* SettingsTableViewController.swift in Sources */,
+				DB5411BB1EBCB871004FA6FF /* SpeechRecognitionViewController.swift in Sources */,
+				84FFFBBA1F2D4E9A00000BD2 /* ProdutoMapaView.swift in Sources */,
+				DB5411A61EBCB81A004FA6FF /* SpeechRecognizer.swift in Sources */,
+				84FFFBB61F2C0AA200000BD2 /* Produto.swift in Sources */,
+				DB54119D1EBCB7D8004FA6FF /* WatsonVoiceSynthesizer.swift in Sources */,
+				8403EB001F0CB45E00A3A4B8 /* UserMessageCell.swift in Sources */,
+				DB5411B71EBCB871004FA6FF /* OrchestratorSettingsViewController.swift in Sources */,
+				84F88C171F16D9B500315780 /* VisualRecognition.swift in Sources */,
+				8403EAFE1F0CB28100A3A4B8 /* MessagesTableView.swift in Sources */,
+				DB5411C81EBCB8B0004FA6FF /* UIHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB54112E1EBCB72D004FA6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB54112F1EBCB72D004FA6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE_SPECIFIER = "IBM CIO Distribution Wildcard";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5411311EBCB72D004FA6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E325C2A33FAB27C6470FD6 /* Pods-Ofertao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P659N3RH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOS-Conversation",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/IBMMobileFirstPlatformFoundationLiveUpdate",
+				);
+				INFOPLIST_FILE = "iOS-Conversation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.tcc.ofertao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB5411321EBCB72D004FA6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B70DF94D6CCC2F057C4C96 /* Pods-Ofertao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P659N3RH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOS-Conversation",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/IBMMobileFirstPlatformFoundationLiveUpdate",
+				);
+				INFOPLIST_FILE = "iOS-Conversation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.tcc.ofertao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB5411191EBCB72D004FA6FF /* Build configuration list for PBXProject "Ofertao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB54112E1EBCB72D004FA6FF /* Debug */,
+				DB54112F1EBCB72D004FA6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5411301EBCB72D004FA6FF /* Build configuration list for PBXNativeTarget "Ofertao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5411311EBCB72D004FA6FF /* Debug */,
+				DB5411321EBCB72D004FA6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5411161EBCB72D004FA6FF /* Project object */;
+}

@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.5.0)
+  - IBMMobileFirstPlatformFoundation (8.0.2017032814)
+  - IBMMobileFirstPlatformFoundationLiveUpdate (8.0.2016070421):
+    - IBMMobileFirstPlatformFoundation (~> 8.0)
+  - ReachabilitySwift (3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - IBMMobileFirstPlatformFoundationLiveUpdate
+  - ReachabilitySwift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  IBMMobileFirstPlatformFoundation: 0d4b7dd6a0fa875126cd87ed4305d09bcc833ced
+  IBMMobileFirstPlatformFoundationLiveUpdate: 709bb176afab9634bb478afab22f303999d27986
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: c766c3b5a373c70225821e6f1eef1d98609136bb
+
+COCOAPODS: 1.4.0

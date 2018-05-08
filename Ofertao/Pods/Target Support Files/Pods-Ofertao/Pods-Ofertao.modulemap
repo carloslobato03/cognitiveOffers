@@ -1,0 +1,6 @@
+framework module Pods_Ofertao {
+  umbrella header "Pods-Ofertao-umbrella.h"
+
+  export *
+  module * { export * }
+}
