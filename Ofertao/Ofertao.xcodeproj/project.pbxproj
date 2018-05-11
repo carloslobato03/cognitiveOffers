@@ -299,7 +299,7 @@
 				TargetAttributes = {
 					DB54111D1EBCB72D004FA6FF = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9P659N3RH4;
+						DevelopmentTeam = HY94TZQ7S2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -568,7 +568,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9P659N3RH4;
+				DEVELOPMENT_TEAM = HY94TZQ7S2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -594,7 +594,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9P659N3RH4;
+				DEVELOPMENT_TEAM = HY94TZQ7S2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

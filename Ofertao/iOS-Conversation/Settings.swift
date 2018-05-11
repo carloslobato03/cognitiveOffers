@@ -57,12 +57,12 @@ class Settings {
         speechRecognitionPassword = UserDefaults.standard.value(forKey: "speechRecognitionPassword") as? String ?? ""
         nativeRecognitionLanguage = UserDefaults.standard.value(forKey: "nativeRecognitionLanguage") as? String ?? "pt-BR"
         
-        orchestratorUsername = UserDefaults.standard.value(forKey: "orchestratorUsername") as? String ?? ""
-        orchestratorPassword = UserDefaults.standard.value(forKey: "orchestratorPassword") as? String ?? ""
-        conversationWorkspace = UserDefaults.standard.value(forKey: "conversationWorkspace") as? String ?? ""
+        orchestratorUsername = UserDefaults.standard.value(forKey: "orchestratorUsername") as? String ?? "e21a3047-8d37-4220-913d-7ca6023397c8"
+        orchestratorPassword = UserDefaults.standard.value(forKey: "orchestratorPassword") as? String ?? "Bl06sdgiydtL"
+        conversationWorkspace = UserDefaults.standard.value(forKey: "conversationWorkspace") as? String ?? "8cccb4b3-f1b1-477b-96bc-1c5efa1b891c"
 
-        voiceSynthesisUsername = UserDefaults.standard.value(forKey: "voiceSynthesisUsername") as? String ?? ""
-        voiceSynthesisPassword = UserDefaults.standard.value(forKey: "voiceSynthesisPassword") as? String ?? ""
+        voiceSynthesisUsername = UserDefaults.standard.value(forKey: "voiceSynthesisUsername") as? String ?? "e2bc66d7-207a-409f-8d39-c36acf24147a"
+        voiceSynthesisPassword = UserDefaults.standard.value(forKey: "voiceSynthesisPassword") as? String ?? "5ivYGaoMTM36"
         
         textToSpeechVoice = UserDefaults.standard.value(forKey: "textToSpeechVoice") as? String ?? "pt-BR_IsabelaVoice"
     }
