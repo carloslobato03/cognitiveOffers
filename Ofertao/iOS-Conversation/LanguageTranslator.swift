@@ -20,7 +20,7 @@ class LanguageTranslator {
         let requestURL = "https://gateway.watsonplatform.net/language-translator/api/v2/translate"
         
         var headers: HTTPHeaders = [:]
-        if let authorizationHeader = Request.authorizationHeader(user: "7a2f3054-ac04-44a1-897f-34a2b4192581", password: "vEdkJzU6lmen") {
+        if let authorizationHeader = Request.authorizationHeader(user: "25ba9f15-886c-44c5-a288-c01e62b17699", password: "TaGtRhdrM5k5") {
             headers[authorizationHeader.key] = authorizationHeader.value
             
         }
