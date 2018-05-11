@@ -29,17 +29,15 @@ class VisualRecognition {
                 
                 let stringBase64 = data!.base64EncodedString(options: .endLineWithCarriageReturn)
                 
-                let requestURL = "https://visual-recognition-demo.mybluemix.net/api/classify"
-                let headers: HTTPHeaders = ["Content-Type":"application/x-www-form-urlencoded"]
+                let requestURL = "https://watson-visual-recognition-duo-dev.ng.bluemix.net/api/classify"
                 
                 let requestParams = [
-                    "classifier_id": "",
-                    "url": "",
-                    "image_data": "data:image/png;base64," + stringBase64
+                    "type": "file",
+                    "image_file": "data:image/png;base64," + stringBase64
                 ]
                 
-                Alamofire.request(requestURL, method: .post, parameters: requestParams, headers: headers).responseJSON { response in
-                    
+                Alamofire.request(requestURL, method: .post, parameters: requestParams, encoding: JSONEncoding.default, headers: nil).responseJSON { response in
+
                     switch response.result {
                     case .success(let data):
                         let json = JSON(data)

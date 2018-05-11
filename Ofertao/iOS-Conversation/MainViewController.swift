@@ -839,7 +839,7 @@ extension MainViewController: LanguageTranslatorDelegate {
     }
     
     func onTranslationError(errorDescription: String) {
-        
+        self.alterarStatusVisualRecognition(running: false)
     }
 }
 
@@ -850,8 +850,7 @@ extension MainViewController: VisualRecognitionDelegate {
     }
     
     func onRecognitionSuccess(result: JSON) {
-        if let classifiers = result["images"][0]["classifiers"].array {
-            
+        if let classifiers = result.array {
             for classifier in classifiers {
                 if let nome = classifier["classifier_id"].string, nome == "food" {
                     
@@ -866,7 +865,7 @@ extension MainViewController: VisualRecognitionDelegate {
     }
     
     func onRecognitionError(errorDescription: String) {
-        
+        self.alterarStatusVisualRecognition(running: false)
     }
 }
 
